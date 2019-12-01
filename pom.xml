@@ -36,13 +36,14 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+<!--		Add this for keycloak-->
 		<dependency>
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-spring-boot-starter</artifactId>
 			<version>${keycloak.version}</version>
 		</dependency>
 	</dependencies>
-
+<!--Needed for keycloak to work-->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
